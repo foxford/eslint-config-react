@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-adequate-react",
+  "version": "1.0.0",
+  "description": "No bullshit config for react",
+  "main": ".",
+  "dependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-adequate": "https://gitlab.com/rogaldh/eslint-config-adequate.git",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-react": "^7.5",
+    "eslint-restricted-globals": "^0.1.1"
+  },
+  "peerDependencies": {
+    "eslint": "4.x.x",
+    "eslint-config-adequate": "1.x",
+    "eslint-config-airbnb": "16.1.x",
+    "eslint-plugin-react": "7.5.x",
+    "eslint-restricted-globals": "0.1.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
