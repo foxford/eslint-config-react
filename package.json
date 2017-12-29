@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adequate-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "No bullshit config for react",
   "main": ".",
   "author": "",
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "eslint": "^4.14.0",
-    "eslint-config-adequate": "^1.0.1",
+    "eslint-config-adequate": "^1.0.2",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-react": "^7.4.0"
   }
