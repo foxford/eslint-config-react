@@ -3,19 +3,34 @@
   "version": "1.0.0",
   "description": "No bullshit config for react",
   "main": ".",
-  "dependencies": {
-    "eslint": "^4.14.0",
-    "eslint-config-adequate": "git+https://gitlab.com/rogaldh/eslint-config-adequate.git",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-react": "^7.4.0",
-    "eslint-restricted-globals": "^0.1.1"
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foxford/eslint-config-adequate-react/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foxford/eslint-config-adequate-react.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "pretty",
+    "adequate",
+    "standard",
+    "airbnb",
+    "react"
+  ],
   "engines": {
     "npm": ">=5.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT"
+  "dependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-adequate": "^1.0.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-react": "^7.4.0"
+  }
 }
