@@ -1,15 +1,6 @@
-const globalsRestricted = require('eslint-restricted-globals')
-
-const globalsAllowed = ['history']
-// Allow history due to React Router props
-
 module.exports = {
   'extends': ['adequate'].concat(['eslint-config-airbnb/rules/react'].map(require.resolve)),
   rules: {
-    'no-restricted-globals': ['error'].concat(globalsRestricted.filter(x => !~globalsAllowed.indexOf(x)), ['isFinite', 'isNaN']),
-    // disallow specific globals
-    // http://eslint.org/docs/rules/no-restricted-globals
-
     'jsx-quotes': ['error', 'prefer-single'],
     // Specify whether double or single quotes should be used in JSX attributes
     // http://eslint.org/docs/rules/jsx-quotes
