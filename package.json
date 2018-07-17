@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adequate-react",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "No bullshit config for react",
   "main": ".",
   "author": "",
@@ -28,9 +28,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "eslint": "^4.14.0",
-    "eslint-config-adequate": "^1.1.0",
+    "eslint": "^5.1.0",
+    "eslint-config-adequate": "^1.1.1",
     "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint-plugin-react": "^7.10.0"
   }
 }
