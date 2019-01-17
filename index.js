@@ -1,5 +1,6 @@
 module.exports = {
   'extends': ['adequate'].concat(['eslint-config-airbnb/rules/react'].map(require.resolve)),
+  plugins: ['jsx-a11y'],
   rules: {
     'jsx-quotes': ['error', 'prefer-single'],
     // Specify whether double or single quotes should be used in JSX attributes
@@ -33,5 +34,21 @@ module.exports = {
 
     'react/jsx-filename-extension': 'off',
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
+    'jsx-a11y/alt-text': [
+      1,
+      {
+        'elements': [
+          'img',
+          'object',
+          'area',
+          'input[type="image"]',
+        ],
+        'img': ['Image'],
+        'object': ['Object'],
+        'area': ['Area'],
+        'input[type="image"]': ['InputImage'],
+      },
+    ],
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/alt-text.md
   },
 }
