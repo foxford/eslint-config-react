@@ -1,5 +1,5 @@
 {
-  "extends": [ "adequate", "adequate-node" ],
+  "extends": "./index.js",
   "parserOptions": {
     "ecmaVersion": 8
   },

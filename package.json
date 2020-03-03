@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adequate-react",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "No bullshit config for react",
   "keywords": [
     "adequate",
@@ -30,7 +30,7 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
     "eslint-config-adequate": "^2.0.2",
-    "eslint-config-adequate-node": "^1.0.0",
+    "eslint-config-adequate-node": "^1.0.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
@@ -45,7 +45,7 @@
   },
   "peerDependencies": {
     "eslint-config-adequate": "^2.0.2",
-    "eslint-config-adequate-node": "^1.0.0",
+    "eslint-config-adequate-node": "^1.0.1",
     "eslint-config-airbnb": "^18.0.0"
   },
   "engines": {

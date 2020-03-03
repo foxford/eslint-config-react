@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': ['adequate'].concat(['eslint-config-airbnb/rules/react'].map(require.resolve)),
+  'extends': ['airbnb', 'adequate', 'adequate-node'],
   plugins: ['jsx-a11y'],
   rules: {
     'jsx-quotes': ['error', 'prefer-single'],
