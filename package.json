@@ -1,8 +1,7 @@
 {
   "name": "eslint-config-adequate-react",
-  "version": "1.2.1",
+  "version": "2.0.1",
   "description": "No bullshit config for react",
-  "homepage": "https://github.com/foxford/eslint-config-adequate-react",
   "keywords": [
     "adequate",
     "airbnb",
@@ -12,27 +11,44 @@
     "react",
     "standard"
   ],
+  "homepage": "https://gitlab.com/rogaldh/eslint-config-adequate-react",
   "bugs": {
-    "url": "https://github.com/foxford/eslint-config-adequate-react/issues"
+    "url": "https://gitlab.com/rogaldh/eslint-config-adequate-react/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/foxford/eslint-config-adequate-react.git"
+    "url": "https://gitlab.com/rogaldh/eslint-config-adequate-react.git"
   },
   "license": "MIT",
-  "author": "",
+  "author": "rogaldh",
   "files": [],
   "main": "index.js",
   "scripts": {
     "test": "eslint index.js"
   },
-  "dependencies": {
-    "eslint-config-adequate": "^1.2.5",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.12.3"
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-adequate": "^2.0.2",
+    "eslint-config-adequate-node": "^1.0.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-unicorn": "^6.0.1",
+    "eslint-restricted-globals": "^0.2.0"
+  },
+  "peerDependencies": {
+    "eslint-config-adequate": "^2.0.2",
+    "eslint-config-adequate-node": "^1.0.0",
+    "eslint-config-airbnb": "^18.0.0"
   },
   "engines": {
-    "npm": ">=5.5"
+    "npm": ">=10.16"
   }
 }
