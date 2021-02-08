@@ -21,12 +21,12 @@
   },
   "license": "MIT",
   "author": "rogaldh",
-  "files": [],
   "main": "index.js",
+  "files": [],
   "scripts": {
     "prepublishOnly": "npm test",
-    "test/jest": "jest",
-    "test": "eslint index.js && npm run test/jest"
+    "test": "eslint index.js && npm run test/jest",
+    "test/jest": "jest"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.13",
@@ -51,7 +51,11 @@
   "peerDependencies": {
     "eslint-config-adequate": "^2.1",
     "eslint-config-adequate-node": "^1.0.1",
-    "eslint-config-airbnb": "^18.0.0"
+    "eslint-config-airbnb": "^18.0.0",
+    "react": "^16.13.0"
+  },
+  "optionalDependencies": {
+    "react": "^16.13.0"
   },
   "engines": {
     "npm": ">=10.16"
